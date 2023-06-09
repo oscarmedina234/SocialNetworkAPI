@@ -20,7 +20,7 @@
     "url": "https://github.com/oscarmedina234/SocialNetworkAPI/issues"
   },
   "homepage": "https://github.com/oscarmedina234/SocialNetworkAPI#readme",
-  "ddependencies": {
+  "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^7.0.2"
   },

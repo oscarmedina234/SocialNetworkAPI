@@ -49,7 +49,7 @@ module.exports = {
               { runValidators: true, new: true }
             );
       
-            if (!newUserDate) {
+            if (!newUserData) {
               return res.status(404).json({ message: 'No user with this id!' });
             }
       

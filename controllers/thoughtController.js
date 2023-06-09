@@ -19,19 +19,19 @@ module.exports = {
     async getThoughts(re, res) {
         try {
          const thoughts = await Thoughts.find();
-         res.json(thouhgts);   
+         res.json(thoughts);   
         } catch (err) {
             res.status(500).json(err);
         }
     },
     async getSingleThought(req,res) {
         try {
-         const thoughts = await Thoughts.findOne({ _id: req.params.thoughtsId})
+         const thoughts = await Thoughts.findOne({ _id: req.params.thoughtsId});
 
          if(!thoughts) {
             return res.status(404).json({ message: 'No thought with that ID' });
          }
-         res,json(thoughts);
+         res.json(thoughts);
 
         } catch (err) {
             res.status(500).json(err);
