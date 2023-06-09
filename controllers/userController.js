@@ -10,9 +10,6 @@ const User = require('../models/User');
 // }
 // ```
 
-
-// * `DELETE` to remove user by its `_id`
-
 module.exports = {
     async getUsers(req, res) {
         try {
