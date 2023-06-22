@@ -2,18 +2,18 @@
 
 ## Description
 
-This application is a social media backend. It is made using mongodb, mongoose, express, node, and insomnia. This application thouhgt me how to use all of the technology and languages mentioned above. This lets you see what a social media api backend would look like and how it operates.
+This application is a social media backend. It is made using mongodb, mongoose, express, node, and insomnia. This application taught me how to use all of the technology and languages mentioned above. This lets you see what a social media api backend would look like and how it operates.
 
 
 ## Installation
 
-To install make sure you use the package.json file and npm i all the required stuff necesssary for the app to function. Then make sure that your mongodb connection url is correct to connect to your mongodb server. 
+To install make sure you use the package.json file and npm i all the required stuff necessary for the app to function. Then make sure that your mongodb connection url is correct to connect to your mongodb server. 
 
 ## Usage
 
-To use the app make sure to take the data in the utils folder to populate the database. The start the index.js file in the root folder to start the server. Then to test all the routes open local host in insomnia or a similar application. 
+To use the app make sure to take the data in the utils folder to populate the database. Start the index.js file in the root folder to start the server. Then to test all the routes open local host in insomnia or a similar application. 
 
-find a video of app fucntionality here. 
+find a video of app functionality here. 
 https://drive.google.com/file/d/1gGzmZzz5yAXt92XyaCZXN5bjNO3iz1DJ/view
 
 
@@ -24,7 +24,7 @@ https://drive.google.com/file/d/1gGzmZzz5yAXt92XyaCZXN5bjNO3iz1DJ/view
 
 ## Credits
 
-I used in class activities to get the starter code and to use as reference for how to stucture my code and files. 
+I used in-class activities to get the starter code and to use it as a reference for how to structure my code and files. 
 
 ## License
 
